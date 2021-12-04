@@ -1,0 +1,17 @@
+* Concrete Syntax --> Abstract Syntax --> Semantics
+* N number --> num(N) --> N
+* #t (#f)  --> bool(true) (bool(false) --> true (false)
+* S string --> str(S) --> S as atom
+* Id       --> id(Id) --> Value of Id in scope (error if none)
+* +, (*, -, /) --> id(+)  --> prim(+) (native + of Prolog)
+* (...) sexp  --> sexp([...]) --> [...]
+* nil  sexp   --> nil         --> nil
+* '. --> quote(.)
+* (list ...)
+* (begin ...) --> begin([...]) 
+* (progn ...) --> progn([...])
+* (prog1 ...) --> prog1([...])
+* (display .) --> display(.)
+* (newline)   --> newline
+* (oper ...)  --> sexp([oper, ...])
+ 
