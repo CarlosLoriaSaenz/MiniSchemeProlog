@@ -1,8 +1,8 @@
 # MiniSchemeProlog
 Toy Demo of a tiny Interpreter for Scheme in Prolog
 ## Implementation
-MiniSchemeProlog is just a reference implementation of a simplified Scheme for teaching purposes, currently written in SWI-Prolog.
-The main purpose is simply to illustrate how easy is to write language prototypes in [SWI-Prolog](https://www.swi-prolog.org/).
+MiniSchemeProlog is just a reference implementation of a simplified Scheme for teaching purposes, currently written in [SWI-Prolog](https://www.swi-prolog.org/).
+The main purpose is simply to illustrate how easy is to write language prototypes in Prolog.
 
 The `src/main/scheme.pl` is the interpreter. It assumes a simple AST representation of Scheme.
 The `src/main/scope.pl` contains a mutable implementation of an scope.
