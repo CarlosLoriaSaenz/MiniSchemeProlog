@@ -1,4 +1,9 @@
-:-[scheme].
+/*
+* Test of MiniScheme in Prolog
+* @author loriacarlos@gmail.com
+* @since 2021
+*/
+:-['../main/scheme'].
 %%%%%%%%%%%%%%%%%%%%%%%%%% Test Cases %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 test1 :-
     scope_cleanall,
