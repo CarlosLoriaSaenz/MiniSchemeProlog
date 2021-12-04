@@ -1,2 +1,2 @@
 # MiniSchemeProlog
-Toy Demo of an tiny Interpreter for Scheme in Prolog
+Toy Demo of a tiny Interpreter for Scheme in Prolog
