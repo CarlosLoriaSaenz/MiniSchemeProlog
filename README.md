@@ -23,6 +23,7 @@ For instance, the following test evaluates the AST of the SEXP `(if #t (* 10 20)
 ````
 
 The `evaluate(+Sexp, +Scope, -Result)` predicate is the evaluator. 
+A small spec describing the ASTs can be found in `doc/spec.txt`
 ## TO DO
 1. Soon, we will be adding a parser using DCG.
 2. Adding modularization 
