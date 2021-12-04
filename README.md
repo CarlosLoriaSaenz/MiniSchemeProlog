@@ -2,10 +2,11 @@
 Toy Demo of a tiny Interpreter for Scheme in Prolog
 ## Implementation
 MiniSchemeProlog is just a reference implementation of a simplified Scheme for teaching purposes, currently written in SWI-Prolog.
-The main purpose is to illustrate how easy is to write language prototypes in [SWI-Prolog](https://www.swi-prolog.org/).
-The src/main/scheme.pl is the interpreter. It assumes a simple AST representation of Scheme.
-The src/main/scope.pl contains a mutable implementation of an scope.
-Some test examples can be found in src/test/test.pl.
+The main purpose is simply to illustrate how easy is to write language prototypes in [SWI-Prolog](https://www.swi-prolog.org/).
+
+The `src/main/scheme.pl` is the interpreter. It assumes a simple AST representation of Scheme.
+The `src/main/scope.pl` contains a mutable implementation of an scope.
+Some small test examples can be found in `src/test/test.pl`.
 
 For instance, the following test evaluates the AST of the SEXP `(if #t (* 10 20) (+ 10 20))`:
 
@@ -23,4 +24,7 @@ For instance, the following test evaluates the AST of the SEXP `(if #t (* 10 20)
 
 The `evaluate(+Sexp, +Scope, -Result)` predicate is the evaluator. 
 ## TO DO
-Soon, we will be adding a parser using DCG.
+1. Soon, we will be adding a parser using DCG.
+2. Adding modularization 
+3. Unit testing
+4. PlDoc the code
